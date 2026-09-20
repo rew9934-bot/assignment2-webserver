@@ -34,6 +34,7 @@ def webServer(port=13331):
       headers = (
         "HTTP/1.1 200 OK\r\n"
         "Content-Type: text/html; charset=UTF-8\r\n"
+        "Server: Python Web Server\r\n"
         #f"Content-Length: {len(filename)}\r\n"
         "Connection: close\r\n"
       )
